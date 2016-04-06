@@ -3,7 +3,7 @@
 This is a simple terminal interface to write/read command from Microchip RN2903. This include and simple dump util and sub channel configuration util.
 
 ## Usage:
-
+```bash
   Usage of ./lora-term:
     -baud uint
       	Baud rate (default 57600)
@@ -19,10 +19,11 @@ This is a simple terminal interface to write/read command from Microchip RN2903.
       	Set specific sub band channels on (default -1)
     -term
       	Terminal Emu mode
-
+```
 
 ## Example
 
+```bash
   ./termgo
   Version             : invalid_param
   Dev Addr            : 001A5A5E
@@ -41,3 +42,4 @@ This is a simple terminal interface to write/read command from Microchip RN2903.
            7 | off   | off   | off   | off   | off   | off   | off   | off   | off
            8 | off   | off   | off   | off   | off   | off   | off   | off   | off
 
+```
